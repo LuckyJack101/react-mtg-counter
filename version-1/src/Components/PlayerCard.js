@@ -1,11 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function PlayerCard(props) {
+function PlayerCard({ name, health }) {
   return (
     <div>
       <div>
-        <span>{props.name}</span>
+        <span>{name}</span>
+      </div>
+      <div>
+        <span>{health}</span>
       </div>
     </div>
   )
