@@ -1,31 +1,29 @@
-import React, { useState } from 'react'
-import './assets/css/reset.css';
-import Layout from './Layout/Layout';
+import React from 'react'
+import './assets/css/reset.css'
+import Layout from './Layout/Layout'
 
 function App() {
-  const [ store, setStore ] = useState({
-    players: [
-      {
-        name: 'Kasper',
-        health: 20,
-      },
-      {
-        name: 'Ebbe',
-        health: 20,
-      },
-    ],
-    isCommander: false,
-    usePoison: false,
-    startHealth: 20
-  })
+  // const [ store, setStore ] = useState({
+  //   players: [
+  //     {
+  //       name: 'Kasper',
+  //       health: 20,
+  //     },
+  //     {
+  //       name: 'Ebbe',
+  //       health: 20,
+  //     },
+  //   ],
+  //   isCommander: false,
+  //   usePoison: false,
+  //   startHealth: 20
+  // })
 
   return (
     <Layout>
-      <div>
-        
-      </div>
+      <div />
     </Layout>
-  );
+  )
 }
 
-export default App;
+export default App
